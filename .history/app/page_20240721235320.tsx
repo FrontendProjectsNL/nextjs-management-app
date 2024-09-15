@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -47,7 +47,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Docs{' '}
+            Docs{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -64,7 +64,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Learn{' '}
+            Learn{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -81,7 +81,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Templates{' '}
+            Templates{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -98,20 +98,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{' '}
+            Deploy{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className="m-0 max-w-[30ch]  text-sm opacity-50  line-clamp-3">
+          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
             Instantly deploy your Next.js site to a shareable URL with Vercel.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
-            eveniet accusantium dolores laborum suscipit vero consequuntur,
-            incidunt ipsa repudiandae temporibus iste reiciendis amet
-            perferendis, iusto voluptatibus quis saepe a. Quaerat magnam iusto,
-            voluptatum explicabo sequi quod labore error architecto, eaque modi
-            consequuntur quis similique! Atque cumque soluta ipsa exercitationem
-            ab?
           </p>
         </a>
       </div>
